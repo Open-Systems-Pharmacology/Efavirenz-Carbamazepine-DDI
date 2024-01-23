@@ -1,4 +1,4 @@
-# Carbamazepine-Efavirenz-DDI
+# Efavirenz-Carbamazepine-DDI
 Modeling of published clinical Efavirenz-Carbamazepine DDI studies for model evaluation with efavirenz as perpetrator and carbamazepine as victim drug.
 
 The repository contains a [PK-Sim snapshot (*.json) file](https://docs.open-systems-pharmacology.org/working-with-pk-sim/pk-sim-documentation/importing-exporting-project-data-models#exporting-project-to-snapshot-loading-project-from-snapshot) containing the respective simulations.
