@@ -10,6 +10,8 @@ The reference model repositories can be found here:
 - [Efavirenz OSP PBPK model](https://github.com/Open-Systems-Pharmacology/Efavirenz-Model)
 - [Carbamazepine OSP PBPK model](https://github.com/Open-Systems-Pharmacology/Carbamazepine-Model)
 
+The scenario where carbamazepine is the perpetrator and efavirenz the victim drug can be found in the repository [Carbamazepine-Efavirenz-DDI](https://github.com/Open-Systems-Pharmacology/Carbamazepine-Efavirenz-DDI).
+
 ## Code of conduct
 Everyone interacting in the Open Systems Pharmacology community (codebases, issue trackers, chat rooms, mailing lists etc...) is expected to follow the Open Systems Pharmacology [code of conduct](https://github.com/Open-Systems-Pharmacology/Suite/blob/master/CODE_OF_CONDUCT.md#contributor-covenant-code-of-conduct).
 
