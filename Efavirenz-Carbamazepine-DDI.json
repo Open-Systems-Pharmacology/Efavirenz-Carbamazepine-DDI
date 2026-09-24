@@ -820,6 +820,13 @@
             "Source": "Internet",
             "Description": "DrugBank"
           }
+        },
+        {
+          "Name": "Use bile salt micellization",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
         }
       ]
     },
@@ -1186,6 +1193,13 @@
           "Value": 315.675,
           "Unit": "g/mol",
           "ValueOrigin": {}
+        },
+        {
+          "Name": "Use bile salt micellization",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
         }
       ]
     }
