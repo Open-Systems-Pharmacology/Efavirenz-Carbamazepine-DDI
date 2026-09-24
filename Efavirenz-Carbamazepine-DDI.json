@@ -1,5 +1,7 @@
 {
-  "Version": 79,
+  "Name": "Efavirenz-Carbamazepine-DDI",
+  "Version": 81,
+  "ApplicationName": "PK-Sim",
   "ExpressionProfiles": [
     {
       "Type": "Enzyme",
@@ -10,12 +12,14 @@
         {
           "Path": "CYP3A4|Reference concentration",
           "Value": 4.32,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP3A4|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP3A4|t1/2 (liver)",
@@ -27,51 +31,63 @@
         },
         {
           "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0041682898325
+          "Value": 0.0041682898325,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00078691079081
+          "Value": 0.00078691079081,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0053603428126
+          "Value": 0.0053603428126,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00042695753798
+          "Value": 0.00042695753798,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
@@ -88,37 +104,45 @@
         {
           "Path": "CYP1A2|Reference concentration",
           "Value": 1.8,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP1A2|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP1A2|t1/2 (liver)",
           "Value": 39.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Gonads|Intracellular|CYP1A2|Relative expression",
-          "Value": 0.00029559748428
+          "Value": 0.00029559748428,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP1A2|Relative expression",
-          "Value": 4.4025157233E-06
+          "Value": 4.4025157233e-06,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|CYP1A2|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|CYP1A2|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|CYP1A2|Relative expression",
-          "Value": 2.4947589099E-05
+          "Value": 2.4947589099e-05,
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
@@ -135,61 +159,75 @@
         {
           "Path": "CYP3A5|Reference concentration",
           "Value": 0.04,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP3A5|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP3A5|t1/2 (liver)",
           "Value": 36.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.0041810344828
+          "Value": 0.0041810344828,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.1681034483
+          "Value": 0.1681034483,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A5|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|CYP3A5|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.1620689655
+          "Value": 0.1620689655,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
+          "Value": 0.5379310345,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
+          "Value": 0.5379310345,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
+          "Value": 0.5379310345,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
+          "Value": 0.5379310345,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
+          "Value": 0.5379310345,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
+          "Value": 0.5379310345,
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
@@ -206,33 +244,40 @@
         {
           "Path": "CYP2A6|Reference concentration",
           "Value": 2.72,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP2A6|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP2A6|t1/2 (liver)",
           "Value": 26.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|CYP2A6|Relative expression",
-          "Value": 0.00052810287531
+          "Value": 0.00052810287531,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|CYP2A6|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|CYP2A6|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|CYP2A6|Relative expression",
-          "Value": 0.0051148677937
+          "Value": 0.0051148677937,
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
@@ -246,65 +291,80 @@
         {
           "Path": "CYP2B6|Reference concentration",
           "Value": 1.56,
-          "Unit": "µmol/l"
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP2B6|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "CYP2B6|t1/2 (liver)",
           "Value": 32.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0021211129296
+          "Value": 0.0021211129296,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Gonads|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0063502454992
+          "Value": 0.0063502454992,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.1043535188
+          "Value": 0.1043535188,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|CYP2B6|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|CYP2B6|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.5970540098
+          "Value": 0.5970540098,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
+          "Value": 0.0703109656,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
+          "Value": 0.0703109656,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
+          "Value": 0.0703109656,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
+          "Value": 0.0703109656,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
+          "Value": 0.0703109656,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
+          "Value": 0.0703109656,
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
@@ -317,63 +377,78 @@
       "Parameters": [
         {
           "Path": "Organism|Gonads|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.00094468085106
+          "Value": 0.00094468085106,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.0049787234043
+          "Value": 0.0049787234043,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.0049787234043
+          "Value": 0.0049787234043,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.0049787234043
+          "Value": 0.0049787234043,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.0049787234043
+          "Value": 0.0049787234043,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.0049787234043
+          "Value": 0.0049787234043,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|UGT2B7|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Liver|Periportal|Intracellular|UGT2B7|Relative expression",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|Pancreas|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.0354468085
+          "Value": 0.0354468085,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.5361702128
+          "Value": 0.5361702128,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.5361702128
+          "Value": 0.5361702128,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.5361702128
+          "Value": 0.5361702128,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.5361702128
+          "Value": 0.5361702128,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.5361702128
+          "Value": 0.5361702128,
+          "ValueOrigin": {}
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.5361702128
+          "Value": 0.5361702128,
+          "ValueOrigin": {}
         },
         {
           "Path": "UGT2B7|Reference concentration",
@@ -386,12 +461,14 @@
         {
           "Path": "UGT2B7|t1/2 (intestine)",
           "Value": 23.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Path": "UGT2B7|t1/2 (liver)",
           "Value": 36.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         }
       ],
       "Localization": "Intracellular",
@@ -719,11 +796,13 @@
             {
               "Name": "EC50",
               "Value": 1000.0,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "Emax",
-              "Value": 148.7284
+              "Value": 148.7284,
+              "ValueOrigin": {}
             }
           ]
         }
@@ -798,7 +877,8 @@
             },
             {
               "Name": "Reference pH",
-              "Value": 0.0
+              "Value": 0.0,
+              "ValueOrigin": {}
             }
           ]
         }
@@ -809,7 +889,7 @@
           "Parameters": [
             {
               "Name": "Specific intestinal permeability (transcellular)",
-              "Value": 2.9720579005E-05,
+              "Value": 2.9720579005e-05,
               "Unit": "cm/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
@@ -840,12 +920,14 @@
             {
               "Name": "In vitro Vmax/recombinant enzyme",
               "Value": 3.5,
-              "Unit": "pmol/min/pmol rec. enzyme"
+              "Unit": "pmol/min/pmol rec. enzyme",
+              "ValueOrigin": {}
             },
             {
               "Name": "Km",
               "Value": 6.4,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "kcat",
@@ -868,12 +950,14 @@
             {
               "Name": "In vitro Vmax/recombinant enzyme",
               "Value": 0.6,
-              "Unit": "pmol/min/pmol rec. enzyme"
+              "Unit": "pmol/min/pmol rec. enzyme",
+              "ValueOrigin": {}
             },
             {
               "Name": "Km",
               "Value": 8.3,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "kcat",
@@ -896,12 +980,14 @@
             {
               "Name": "In vitro Vmax/recombinant enzyme",
               "Value": 0.16,
-              "Unit": "pmol/min/pmol rec. enzyme"
+              "Unit": "pmol/min/pmol rec. enzyme",
+              "ValueOrigin": {}
             },
             {
               "Name": "Km",
               "Value": 23.5,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "kcat",
@@ -924,12 +1010,14 @@
             {
               "Name": "In vitro Vmax/recombinant enzyme",
               "Value": 0.6,
-              "Unit": "pmol/min/pmol rec. enzyme"
+              "Unit": "pmol/min/pmol rec. enzyme",
+              "ValueOrigin": {}
             },
             {
               "Name": "Km",
               "Value": 19.1,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "kcat",
@@ -952,12 +1040,14 @@
             {
               "Name": "In vitro Vmax/recombinant enzyme",
               "Value": 1.0,
-              "Unit": "pmol/min/pmol rec. enzyme"
+              "Unit": "pmol/min/pmol rec. enzyme",
+              "ValueOrigin": {}
             },
             {
               "Name": "Km",
               "Value": 7.7,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             },
             {
               "Name": "kcat",
@@ -980,12 +1070,14 @@
             {
               "Name": "In vitro Vmax/recombinant enzyme",
               "Value": 2.268966,
-              "Unit": "pmol/min/pmol rec. enzyme"
+              "Unit": "pmol/min/pmol rec. enzyme",
+              "ValueOrigin": {}
             },
             {
               "Name": "Km",
               "Value": 6.4,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -998,12 +1090,14 @@
             {
               "Name": "In vitro Vmax/recombinant enzyme",
               "Value": 1.448276,
-              "Unit": "pmol/min/pmol rec. enzyme"
+              "Unit": "pmol/min/pmol rec. enzyme",
+              "ValueOrigin": {}
             },
             {
               "Name": "Km",
               "Value": 6.4,
-              "Unit": "µmol/l"
+              "Unit": "µmol/l",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -1066,7 +1160,8 @@
           "Parameters": [
             {
               "Name": "GFR fraction",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             }
           ]
         }
@@ -1078,16 +1173,19 @@
       "Parameters": [
         {
           "Name": "Cl",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         },
         {
           "Name": "F",
-          "Value": 3.0
+          "Value": 3.0,
+          "ValueOrigin": {}
         },
         {
           "Name": "Molecular weight",
           "Value": 315.675,
-          "Unit": "g/mol"
+          "Unit": "g/mol",
+          "ValueOrigin": {}
         }
       ]
     }
@@ -1110,7 +1208,8 @@
         {
           "Name": "Lag time",
           "Value": 0.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Name": "Dissolution shape",
@@ -1123,7 +1222,8 @@
         },
         {
           "Name": "Use as suspension",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         }
       ]
     },
@@ -1144,7 +1244,8 @@
         {
           "Name": "Lag time",
           "Value": 0.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Name": "Dissolution shape",
@@ -1157,7 +1258,8 @@
         },
         {
           "Name": "Use as suspension",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         }
       ]
     }
@@ -1178,17 +1280,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 200.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -1230,17 +1335,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 200.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -1282,17 +1390,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 400.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -1341,17 +1452,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 600.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -1360,16 +1474,19 @@
             {
               "Name": "Start time",
               "Value": 504.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 14.0
+              "Value": 14.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 24.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -1391,17 +1508,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 200.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -1443,17 +1563,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 200.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -1495,17 +1618,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 400.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -1598,7 +1724,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -1651,131 +1778,156 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
       ],
       "Parameters": [
         {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_15|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_16|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_17|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_17|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_18|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_18|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_19|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_19|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_20|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_20|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_21|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_21|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_22|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_22|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_23|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_23|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_24|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_24|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_ControlPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -1841,6 +1993,18 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-DMPK",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Carbamazepine"
+        },
+        {
+          "Name": "CYP2B6-Faucette2004",
+          "MoleculeName": "CYP2B6",
+          "CompoundName": "Carbamazepine"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -1913,18 +2077,6 @@
           },
           "OriginText": "Carbamazepine-Efavirenz-DDI\nJi2008_Arm2_ControlPhase\n2022-05-05 17:44"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-DMPK",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Carbamazepine"
-        },
-        {
-          "Name": "CYP2B6-Faucette2004",
-          "MoleculeName": "CYP2B6",
-          "CompoundName": "Carbamazepine"
-        }
       ]
     },
     {
@@ -1940,12 +2092,14 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "Resolution",
@@ -1962,7 +2116,8 @@
             {
               "Name": "Start time",
               "Value": 2.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -1975,7 +2130,8 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -2028,271 +2184,324 @@
             {
               "Name": "Resolution",
               "Value": 4.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
       ],
       "Parameters": [
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_15|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_16|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_17|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_17|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_18|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_18|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_19|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_19|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_20|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_20|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_21|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_21|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_22|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_22|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_23|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_23|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_24|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_24|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_25|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_25|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_26|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_26|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_27|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_27|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_28|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_28|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_29|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_29|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_30|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_30|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_31|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_31|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_32|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_32|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_33|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_33|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_34|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_34|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_35|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_35|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_36|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_36|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_37|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_37|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_38|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_38|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Ji2008 - Arm2_TreatmentPhase_Efavirenz|Sustiva|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -2410,6 +2619,28 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Shou2008",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Efavirenz"
+        },
+        {
+          "Name": "CYP2B6-Ke2016",
+          "MoleculeName": "CYP2B6",
+          "CompoundName": "Efavirenz"
+        },
+        {
+          "Name": "CYP3A4-DMPK",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Carbamazepine"
+        },
+        {
+          "Name": "CYP2B6-Faucette2004",
+          "MoleculeName": "CYP2B6",
+          "CompoundName": "Carbamazepine"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -2481,28 +2712,6 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Carbamazepine-Efavirenz-DDI\nJi2008_Arm2_TreatmentPhase\n2022-05-05 17:50"
-        }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Shou2008",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Efavirenz"
-        },
-        {
-          "Name": "CYP2B6-Ke2016",
-          "MoleculeName": "CYP2B6",
-          "CompoundName": "Efavirenz"
-        },
-        {
-          "Name": "CYP3A4-DMPK",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Carbamazepine"
-        },
-        {
-          "Name": "CYP2B6-Faucette2004",
-          "MoleculeName": "CYP2B6",
-          "CompoundName": "Carbamazepine"
         }
       ]
     }
@@ -2641,7 +2850,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 236.269,
-            "LLOQ": 5E-07
+            "LLOQ": 5e-07
           },
           "Values": [
             4.177679,
@@ -2802,7 +3011,7 @@
                 0.8506384,
                 1.247615,
                 1.228763,
-                0.982989848,
+                0.98298985,
                 0.9263034,
                 0.9452071,
                 0.8506641,
@@ -2822,7 +3031,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 236.269,
-            "LLOQ": 5E-07
+            "LLOQ": 5e-07
           },
           "Values": [
             2.77881,
